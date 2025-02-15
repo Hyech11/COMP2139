@@ -1,0 +1,84 @@
+﻿@model IEnumerable<YourProject.Models.Product>
+
+@{
+    ViewData["Title"] = "Product List";
+}
+
+<h2>Product List</h2>
+
+<p>Total Products: @Model.Count()</p>
+
+
+<form method="get" class="mb-3">
+    <div class="row">
+        <!-- Category Filter -->
+        <div class="col-md-3">
+            <label for="category">Filter by Category:</label>
+            <select name="categoryId" class="form-control" onchange="this.form.submit()">
+                <option value="">All Categories</option>
+                @foreach (var category in ViewBag.Categories)
+                {
+                    <option value="@category.Id" selected="@(Context.Request.Query["categoryId"] == category.Id.ToString())">
+                        @category.Name
+                    </option>
+                }
+            </select>
+        </div>
+
+        <!-- Search Input -->
+        <div class="col-md-4">
+            <label for="searchQuery">Search Product:</label>
+            <input type="text" name="searchQuery" class="form-control" placeholder="Enter product name"
+                   value="@Context.Request.Query["searchQuery"]" />
+        </div>
+
+        <!-- Sorting Dropdown -->
+        <div class="col-md-3">
+            <label for="sortBy">Sort By:</label>
+            <select name="sortBy" class="form-control">
+                <option value="name" selected="@(Context.Request.Query["sortBy"] == "name")">Name (A-Z)</option>
+                <option value="price_asc" selected="@(Context.Request.Query["sortBy"] == "price_asc")">Price (Low to High)</option>
+                <option value="price_desc" selected="@(Context.Request.Query["sortBy"] == "price_desc")">Price (High to Low)</option>
+                <option value="stock" selected="@(Context.Request.Query["sortBy"] == "stock")">Stock (High to Low)</option>
+            </select>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="col-md-2 d-flex align-items-end">
+            <button type="submit" class="btn btn-primary">Apply Filters</button>
+        </div>
+    </div>
+</form>
+
+
+<div class="mb-3">
+    <a asp-controller="Categories" asp-action="Create" class="btn btn-success">Add New Category</a>
+    <a asp-action="Create" class="btn btn-primary">Add New Product</a>
+</div>
+
+
+<table class="table table-bordered">
+    <thead class="thead-dark">
+    <tr>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Stock</th>
+        <th>Category</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.Price.ToString("C")</td>
+            <td>@item.Stock</td>
+            <td>@(item.Category?.Name ?? "Uncategorized")</td>
+            <td>
+                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

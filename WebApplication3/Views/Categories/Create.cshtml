@@ -1,0 +1,43 @@
+﻿@model WebApplication3.Models.Category
+
+@{
+    ViewData["Title"] = "Create Category";
+}
+
+<h2>Create Category</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Add Category</button>
+    <a asp-controller="Products" asp-action="Index" class="btn btn-secondary">Cancel</a> <!-- ✅ Products 페이지로 이동 -->
+</form>
+
+
+<h3>Existing Categories</h3>
+<table class="table">
+    <thead>
+    <tr>
+        <th>Name</th>
+    </tr>
+    </thead>
+    <tbody>
+    @if (ViewBag.Categories != null && ViewBag.Categories.Count > 0)
+    {
+        @foreach (var category in ViewBag.Categories)
+        {
+            <tr>
+                <td>@category.Name</td>
+            </tr>
+        }
+    }
+    else
+    {
+        <tr>
+            <td colspan="1">No categories available.</td>
+        </tr>
+    }
+    </tbody>
+</table>
