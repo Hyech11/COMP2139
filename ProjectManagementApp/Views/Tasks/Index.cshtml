@@ -1,0 +1,38 @@
+@model List<ProjectManagementApp.Models.ProjectTask>
+
+<h2>Project Tasks</h2>
+<a asp-action="Create" asp-route-projectId="@ViewBag.ProjectId" class="btn btn-primary">Add Task</a>
+<form method="get" asp-action="Index">
+    <input type="hidden" name="projectId" value="@ViewBag.ProjectId" />
+    <select name="filter" class="form-control">
+        <option value="">All Tasks</option>
+        <option value="completed">Completed</option>
+        <option value="incomplete">Incomplete</option>
+    </select>
+    <button type="submit" class="btn btn-primary mt-2">Filter</button>
+</form>
+<table class="table">
+    @await Component.InvokeAsync("ProjectSummary")
+
+    <thead>
+    <tr>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Completed</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var task in Model)
+    {
+        <tr>
+            <td>@task.Title</td>
+            <td>@task.Description</td>
+            <td>@(task.IsCompleted ? "✅ Yes" : "❌ No")</td>
+            <td>
+                <a asp-action="Delete" asp-route-id="@task.TaskId" class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

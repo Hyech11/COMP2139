@@ -1,0 +1,10 @@
+@model ProjectManagementApp.Models.Project
+
+<h2>Project Details</h2>
+
+<p><strong>Name:</strong> @Model.Name</p>
+<p><strong>Description:</strong> @Model.Description</p>
+<p><strong>Start Date:</strong> @Model.StartDate.ToShortDateString()</p>
+<p><strong>End Date:</strong> @Model.EndDate.ToShortDateString()</p>
+
+<a asp-action="Index" class="btn btn-secondary">Back to List</a>
