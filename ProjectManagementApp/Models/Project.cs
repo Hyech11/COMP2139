@@ -35,6 +35,6 @@ namespace ProjectManagementApp.Models
             set => _endDate = DateTime.SpecifyKind(value, DateTimeKind.Utc); 
         }
         
-        public List<ProjectTask> Tasks { get; set; } = new List<ProjectTask>();
+        public List<TaskItem> Tasks { get; set; } = new List<TaskItem>();
     }
 }

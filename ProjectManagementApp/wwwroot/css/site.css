@@ -29,3 +29,12 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
+
+#comments-section {
+  padding: 1em;
+  border-top: 1px solid #ccc;
+}
+
+#comment-list > div {
+  margin-bottom: 0.5em;
+}

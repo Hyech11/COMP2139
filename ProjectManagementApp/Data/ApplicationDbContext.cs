@@ -1,17 +1,27 @@
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore; // 🔥필수 추가
 using Microsoft.EntityFrameworkCore;
 using ProjectManagementApp.Models;
 
 namespace ProjectManagementApp.Data
 {
-    public class ApplicationDbContext : DbContext
+    // 🚩 반드시 IdentityDbContext로 변경해야 합니다!
+    public class ApplicationDbContext : IdentityDbContext
     {
-        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
+            : base(options) { }
 
         public DbSet<Project> Projects { get; set; }
-        public DbSet<ProjectTask> Tasks { get; set; } // 🔹 새롭게 추가
+        public DbSet<TaskItem> TaskItems { get; set; }
+
+
+        public DbSet<ProjectComment> ProjectComments { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            
+            base.OnModelCreating(modelBuilder);
+
             modelBuilder.Entity<Project>().ToTable("projects"); 
             modelBuilder.Entity<Project>().Property(p => p.ProjectId).HasColumnName("projectid");
             modelBuilder.Entity<Project>().Property(p => p.Description).HasColumnName("description");
@@ -19,15 +29,15 @@ namespace ProjectManagementApp.Data
             modelBuilder.Entity<Project>().Property(p => p.StartDate).HasColumnType("timestamp with time zone"); 
             modelBuilder.Entity<Project>().Property(p => p.EndDate).HasColumnType("timestamp with time zone");
 
-            modelBuilder.Entity<ProjectTask>().ToTable("tasks");
+            modelBuilder.Entity<TaskItem>().ToTable("TaskItems");
+            modelBuilder.Entity<TaskItem>().Property(t => t.Id).HasColumnName("Id"); 
+            modelBuilder.Entity<TaskItem>().Property(t => t.Title).HasColumnName("Title");
+            modelBuilder.Entity<TaskItem>().Property(t => t.Description).HasColumnName("Description"); 
+            modelBuilder.Entity<TaskItem>().Property(t => t.ProjectId).HasColumnName("ProjectId");
+            modelBuilder.Entity<ProjectComment>().ToTable("projectcomments");
 
-            modelBuilder.Entity<ProjectTask>().Property(t => t.TaskId).HasColumnName("taskid");
-            modelBuilder.Entity<ProjectTask>().Property(t => t.Title).HasColumnName("title");
-            modelBuilder.Entity<ProjectTask>().Property(t => t.Description).HasColumnName("description"); 
-            modelBuilder.Entity<ProjectTask>().Property(t => t.IsCompleted).HasColumnName("iscompleted");
-            modelBuilder.Entity<ProjectTask>().Property(t => t.ProjectId).HasColumnName("projectid");
             
-            modelBuilder.Entity<ProjectTask>()
+            modelBuilder.Entity<TaskItem>()
                 .HasOne(t => t.Project)
                 .WithMany(p => p.Tasks)
                 .HasForeignKey(t => t.ProjectId)

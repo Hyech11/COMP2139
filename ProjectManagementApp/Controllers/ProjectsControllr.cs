@@ -112,6 +112,8 @@ namespace ProjectManagementApp.Controllers
             }
             return View(project);
         }
+        
+        
 
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]

@@ -1,18 +1,16 @@
-@model List<ProjectManagementApp.Models.Project>
+@model List<Project>
 
-<h2>Project List</h2>
-<a asp-action="Create" class="btn btn-primary">Create New Project</a>
-<form method="get" asp-action="Index">
-    <input type="text" name="search" placeholder="Search projects..." class="form-control" />
-    <button type="submit" class="btn btn-primary mt-2">Search</button>
-</form>
+<h2>Project Listing</h2>
+
+<a class="btn btn-primary mb-3" asp-action="Create">Create New Project</a>
 
 <table class="table">
     <thead>
     <tr>
+        <th>ID</th>
         <th>Name</th>
-        <th>Start Date</th>
-        <th>End Date</th>
+        <th>Description</th>
+        <th>Summary</th>
         <th>Actions</th>
     </tr>
     </thead>
@@ -20,13 +18,32 @@
     @foreach (var project in Model)
     {
         <tr>
+            <td>@project.ProjectId</td>
             <td>@project.Name</td>
-            <td>@project.StartDate.ToShortDateString()</td>
-            <td>@project.EndDate.ToShortDateString()</td>
+            <td>@project.Description</td>
             <td>
-                <a asp-action="Details" asp-route-id="@project.ProjectId" class="btn btn-info">Details</a>
-                <a asp-action="Edit" asp-route-id="@project.ProjectId" class="btn btn-warning">Edit</a>
-                <a asp-action="Delete" asp-route-id="@project.ProjectId" class="btn btn-danger">Delete</a>
+                <strong>@project.Name</strong><br />
+                @project.Description<br />
+                <strong>Start Date:</strong> @project.StartDate.ToShortDateString()<br />
+                <strong>End Date:</strong> @project.EndDate.ToShortDateString()<br />
+                
+
+                <strong>Tasks</strong>
+                <ul>
+                    @foreach (var task in project.Tasks)
+                    {
+                        <li>
+                            <strong>@task.Title</strong><br />
+                            @task.Description
+                        </li>
+                    }
+                </ul>
+            </td>
+            <td>
+                <a class="btn btn-info" asp-action="Details" asp-route-id="@project.ProjectId">Details</a>
+                <a class="btn btn-secondary" asp-action="Edit" asp-route-id="@project.ProjectId">Edit</a>
+                <a class="btn btn-danger" asp-action="Delete" asp-route-id="@project.ProjectId">Delete</a>
+                <a class="btn btn-warning" asp-controller="Tasks" asp-action="Index" asp-route-projectId="@project.ProjectId">View Tasks</a>
             </td>
         </tr>
     }

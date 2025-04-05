@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Hyechan\\Desktop\\ProjectManagementApp\\ProjectManagementApp\\wwwroot\\js\\projectComments.js",
+      "PackagePath": "staticwebassets\\js\\projectComments.js"
+    },
+    {
       "Id": "C:\\Users\\Hyechan\\Desktop\\ProjectManagementApp\\ProjectManagementApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

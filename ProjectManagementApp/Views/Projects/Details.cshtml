@@ -7,4 +7,21 @@
 <p><strong>Start Date:</strong> @Model.StartDate.ToShortDateString()</p>
 <p><strong>End Date:</strong> @Model.EndDate.ToShortDateString()</p>
 
+<div id="commentsSection">
+    <form id="commentForm">
+        <input type="hidden" name="ProjectId" value="@Model.ProjectId" />
+        <textarea name="Content" required></textarea>
+        <input type="submit" value="Add Comment" />
+    </form>
+
+    <div id="commentsList">
+        <!-- 댓글 목록 비동기로 로드됨 -->
+    </div>
+</div>
+
+
+@section Scripts {
+    <script src="~/js/projectComments.js"></script>
+}
+
 <a asp-action="Index" class="btn btn-secondary">Back to List</a>
