@@ -1,0 +1,28 @@
+@model IEnumerable<YourProject.Models.Product>
+
+@if (!Model.Any())
+{
+    <div>No products found.</div>
+}
+else
+{
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Stock</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Price.ToString("C")</td>
+                <td>@item.Stock</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
