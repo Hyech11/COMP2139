@@ -1,0 +1,55 @@
+@using Microsoft.AspNetCore.Identity
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model List<ApplicationUser>
+@{
+    var userRoles = ViewBag.UserRoles as Dictionary<string, IList<string>>;
+    var allRoles = ViewBag.AllRoles as List<IdentityRole>;
+}
+
+<h2>사용자 관리</h2>
+<table class="table table-bordered">
+    <thead>
+    <tr>
+        <th>Email</th>
+        <th>name</th>
+        <th>number</th>
+        <th>Role</th>
+        <th>Changed Role</th>
+        <th>change</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var user in Model)
+    {
+        <tr>
+            <td>@user.Email</td>
+            <td>@user.FullName</td>
+            <td>@user.ContactInfo</td>
+            <td>@string.Join(", ", userRoles[user.Id])</td>
+            <td>
+                <form asp-action="UpdateRole" asp-controller="UserManagement" method="post" class="d-flex">
+                    <input type="hidden" name="userId" value="@user.Id" />
+                    <select name="newRole" class="form-select me-2">
+                        @foreach (var role in allRoles)
+                        {
+                            <option value="@role.Name">@role.Name</option>
+                        }
+                    </select>
+                    <button type="submit" class="btn btn-sm btn-primary">Change</button>
+                </form>
+            </td>
+            <td>
+                <a class="btn btn-sm btn-secondary" asp-action="Edit" asp-route-id="@user.Id">edit</a>
+            </td>
+            <td>
+                <form asp-action="Delete" asp-controller="UserManagement" method="post" style="display:inline;"
+                      onsubmit="return confirm('Are you sure?');">
+                    <input type="hidden" name="id" value="@user.Id" />
+                    <button type="submit" class="btn btn-sm btn-danger">X</button>
+                </form>
+            </td>
+
+        </tr>
+    }
+    </tbody>
+</table>

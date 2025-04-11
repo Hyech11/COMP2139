@@ -2,6 +2,7 @@
 using WebApplication3.Models;
 using YourProject.Models;
 using System.Linq;
+using Microsoft.AspNetCore.Authorization;
 
 public class CategoriesController : Controller
 {
@@ -12,7 +13,7 @@ public class CategoriesController : Controller
         _context = context;
     }
 
-  
+    [Authorize(Roles = "Admin,SuperAdmin")]
     public IActionResult Create()
     {
         var categories = _context.Categories.ToList();
@@ -20,7 +21,7 @@ public class CategoriesController : Controller
         return View();
     }
 
-   
+    [Authorize(Roles = "Admin,SuperAdmin")]
     [HttpPost]
     [ValidateAntiForgeryToken]
     public IActionResult Create(Category category)

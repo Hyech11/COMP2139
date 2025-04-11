@@ -1,0 +1,24 @@
+@model ApplicationUser
+
+<h2>User account</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="mb-3">
+        <label asp-for="FullName" class="form-label">name</label>
+        <input asp-for="FullName" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="ContactInfo" class="form-label">number</label>
+        <input asp-for="ContactInfo" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="PreferredCategory" class="form-label">category</label>
+        <input asp-for="PreferredCategory" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-success">save</button>
+</form>

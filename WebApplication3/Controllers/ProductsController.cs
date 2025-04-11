@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
+using Microsoft.AspNetCore.Authorization;
 using YourProject.Models;
 
 public class ProductsController : Controller
@@ -50,8 +51,8 @@ public class ProductsController : Controller
         ViewBag.Categories = _context.Categories.ToList(); // 카테고리 목록 전달
         return View(products.ToList());
     }
-
-
+    
+    [Authorize(Roles = "Admin,SuperAdmin")]
     public IActionResult Create()
     {
         ViewBag.Categories = new SelectList(_context.Categories, "Id", "Name");
@@ -61,6 +62,8 @@ public class ProductsController : Controller
 
     [HttpPost]
     [ValidateAntiForgeryToken]
+    
+    [Authorize(Roles = "Admin,SuperAdmin")]
     public IActionResult Create(Product product)
     {
         _context.Products.Add(product);
@@ -68,7 +71,7 @@ public class ProductsController : Controller
         return RedirectToAction(nameof(Index));
     }
 
-
+    [Authorize(Roles = "Admin,SuperAdmin")]
     public IActionResult Delete(int id)
     {
         var product = _context.Products.Include(p => p.Category).FirstOrDefault(p => p.Id == id);
@@ -82,6 +85,7 @@ public class ProductsController : Controller
 
     [HttpPost, ActionName("Delete")]
     [ValidateAntiForgeryToken]
+    [Authorize(Roles = "Admin,SuperAdmin")]
     public IActionResult DeleteConfirmed(int id)
     {
         var product = _context.Products.FirstOrDefault(p => p.Id == id);
@@ -94,4 +98,27 @@ public class ProductsController : Controller
         _context.SaveChanges();
         return RedirectToAction(nameof(Index));
     }
+    
+    public IActionResult SearchPartial(string searchQuery)
+    {
+        var products = string.IsNullOrWhiteSpace(searchQuery)
+            ? _context.Products.ToList()
+            : _context.Products
+                .Where(p => p.Name.Contains(searchQuery))
+                .ToList();
+
+        return PartialView("_ProductListPartial", products);
+    }
+    
+    [HttpGet]
+    public IActionResult Search(string query)
+    {
+        var results = _context.Products
+            .Where(p => p.Name.Contains(query))
+            .ToList();
+
+        return PartialView("_ProductListPartial", results);
+    }
+
+
 }
