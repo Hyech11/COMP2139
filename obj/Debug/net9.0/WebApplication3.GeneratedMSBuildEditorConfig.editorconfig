@@ -28,6 +28,190 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Araes/ProjectManagement/Views/Projects/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcQXJhZXNcUHJvamVjdE1hbmFnZW1lbnRcVmlld3NcUHJvamVjdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Araes/ProjectManagement/Views/Projects/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcQXJhZXNcUHJvamVjdE1hbmFnZW1lbnRcVmlld3NcUHJvamVjdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Araes/ProjectManagement/Views/Projects/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcQXJhZXNcUHJvamVjdE1hbmFnZW1lbnRcVmlld3NcUHJvamVjdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Araes/ProjectManagement/Views/Projects/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcQXJhZXNcUHJvamVjdE1hbmFnZW1lbnRcVmlld3NcUHJvamVjdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Araes/ProjectManagement/Views/Projects/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcQXJhZXNcUHJvamVjdE1hbmFnZW1lbnRcVmlld3NcUHJvamVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Araes/ProjectManagement/Views/Tasks/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcQXJhZXNcUHJvamVjdE1hbmFnZW1lbnRcVmlld3NcVGFza3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Araes/ProjectManagement/Views/Tasks/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcQXJhZXNcUHJvamVjdE1hbmFnZW1lbnRcVmlld3NcVGFza3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Araes/ProjectManagement/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcQXJhZXNcUHJvamVjdE1hbmFnZW1lbnRcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Araes/ProjectManagement/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcQXJhZXNcUHJvamVjdE1hbmFnZW1lbnRcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcQXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcQXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcQXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcQXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW5hYmxlQXV0aGVudGljYXRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcQXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcQXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcQXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcQXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcQXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcQXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcQXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcQXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcVmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcVmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Views/Projects/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcVmlld3NcUHJvamVjdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Views/Projects/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcVmlld3NcUHJvamVjdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Views/Projects/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcVmlld3NcUHJvamVjdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Views/Projects/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcVmlld3NcUHJvamVjdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Views/Projects/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcVmlld3NcUHJvamVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Views/RoleManager/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcVmlld3NcUm9sZU1hbmFnZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Views/Shared/Components/ProjectSummary/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcVmlld3NcU2hhcmVkXENvbXBvbmVudHNcUHJvamVjdFN1bW1hcnlcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Views/Shared/Components/UserRole/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcVmlld3NcU2hhcmVkXENvbXBvbmVudHNcVXNlclJvbGVcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Views/Shared/DisplayTemplates/DateTime.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcVmlld3NcU2hhcmVkXERpc3BsYXlUZW1wbGF0ZXNcRGF0ZVRpbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcVmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Views/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcVmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Views/Shared/_Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcVmlld3NcU2hhcmVkXF9IZWFkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcVmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Views/Shared/_Navbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcVmlld3NcU2hhcmVkXF9OYXZiYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Views/Shared/_ProjectSummary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcVmlld3NcU2hhcmVkXF9Qcm9qZWN0U3VtbWFyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcVmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Views/Tasks/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcVmlld3NcVGFza3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Views/Tasks/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcVmlld3NcVGFza3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Views/UserRoles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcVmlld3NcVXNlclJvbGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Views/UserRoles/Manage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcVmlld3NcVXNlclJvbGVzXE1hbmFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/Views/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -120,6 +304,58 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/WebApplication3/Views/Categories/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = V2ViQXBwbGljYXRpb24zXFZpZXdzXENhdGVnb3JpZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/WebApplication3/Views/Categories/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = V2ViQXBwbGljYXRpb24zXFZpZXdzXENhdGVnb3JpZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/WebApplication3/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = V2ViQXBwbGljYXRpb24zXFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/WebApplication3/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = V2ViQXBwbGljYXRpb24zXFZpZXdzXEhvbWVcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/WebApplication3/Views/Products/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = V2ViQXBwbGljYXRpb24zXFZpZXdzXFByb2R1Y3RzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/WebApplication3/Views/Products/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = V2ViQXBwbGljYXRpb24zXFZpZXdzXFByb2R1Y3RzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/WebApplication3/Views/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = V2ViQXBwbGljYXRpb24zXFZpZXdzXFByb2R1Y3RzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/WebApplication3/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = V2ViQXBwbGljYXRpb24zXFZpZXdzXFNoYXJlZFxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/WebApplication3/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = V2ViQXBwbGljYXRpb24zXFZpZXdzXFNoYXJlZFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/WebApplication3/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = V2ViQXBwbGljYXRpb24zXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/WebApplication3/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = V2ViQXBwbGljYXRpb24zXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/ProjectManagementApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJvamVjdE1hbmFnZW1lbnRBcHBcVmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-io36a7t7c6
+
 [C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-7kk3sr3rte
+
+[C:/Users/Hyechan/RiderProjects/WebApplication3/WebApplication3/WebApplication3/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = V2ViQXBwbGljYXRpb24zXFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-jk8uerdfnc
